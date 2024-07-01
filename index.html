@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Styles.css"> 
+        <title>takeatrip.com</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        <!--link for icons-->
+        <script src="https://kit.fontawesome.com/066afec435.js" crossorigin="anonymous"></script>
+
+        <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />    
+       <!-- second slider-->
+       <link rel="stylesheet" href="css/cdn.jsdelivr.net_npm_swiper@9_swiper-bundle.min.css" />
+ 
+       <meta name="viewport" content="width=1024">
+       
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/6513d7a50f2b18434fdad345/1hbao4olu';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-39K8ZBC0E4">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-39K8ZBC0E4');
+</script>
+
+    </head>
+
+
+    <body>
+        <section id="header">
+            <div id="logo">
+            <a href="index.html"><img src="images/logo.png" class="logo" alt=""></a>
+            </div>
+        <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="blogs.html">Blogs</a></li>
+            
+        </ul>
+    </section>
+   <!-- <main id="main">
+      <div class="main-background">
+          <h2>IT'S <span>TIME</span> TO EXPLORE</h2>
+          <a href="book.html" class="btn">Book Now</a>
+      </div>
+  </main>
+  
+-->
+  <div id="container">
+    <div id="image">
+      <img src="images/main.jpeg" alt="Background Image">
+    </div>
+    <div id="text">
+      IT'S &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br> <span>TIME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br> To EXPLORE
+    </div>
+    <div id="button">
+      <a href="book.html">Book Now</a>
+    </div>
+  </div>
+  
+
+
+    <section>
+    <div id="main2">
+        <h3>Explore more &#x25BC;</h3>
+        <div class="hello">
+       <a href="tripplanning.html"><img src="images/tripplanning.png"><h6>Trip planning</h6></a>      
+        </div>
+        <div class="hello">
+        <a href="whrer2go.html"><img src="images/where2go.png"alt=""><h6>Where2Go</h6></a>
+        </div>
+        <div class="hello">
+        <a href="tours.html"><img src="images/tours.png"><h6>Tours</h6></a>
+        </div>
+        <div class="hello">
+        <a href="Holidaypackage.html"><img src="images/holidaypackage.png"><h6>Holiday packages</h6></a>
+        </div>
+    </div>
+</section>
+
+     <!--image slider-->
+<section class="main4 swiper mySwiper">
+  <div class="wrapper swiper-wrapper">
+    <div class="slide swiper-slide">
+      <img src="images/mountains.jpg" alt="" class="image" />
+      <div class="image-data">
+        <span class="text">Hills & Mountains</span>
+        <h2>
+         Adventure destinations for action packed vacations
+        </h2>
+        <a href="Advantures.html" class="button">Explore</a>
+      </div>
+    </div>
+    <div class="slide swiper-slide">
+      <img src="images/beach.jpg" alt="" class="image" />
+      <div class="image-data">
+        <span class="text">Beach Destinations</span>
+        <h2>
+          “B.E.A.C.H : <br />
+          Best Escape Anyone Can Have.
+        </h2>
+        <a href="beach.html" class="button">Explore</a>
+      </div>
+    </div>
+    <div class="slide swiper-slide">
+      <img src="images/honeymoon.jpg" alt="" class="image" />
+      <div class="image-data">
+        <span class="text">Honeymoon places</span>
+        <h2>
+          Honeymoon Hotspots
+        </h2>
+        <a href="honeymoon.html" class="button">Explore</a>
+      </div>
+    </div>
+
+    <div class="slide swiper-slide">
+      <img src="images/family.jpeg" alt="" class="image" />
+      <div class="image-data">
+        <span class="text">Discover by interest</span>
+        <h2>
+          “A family that travels together stays together.”
+        </h2>
+        <a href="familytrips.html" class="button">Explore Now</a>
+      </div>
+    </div>
+    <div class="slide swiper-slide">
+      <img src="images/heritage.jpg" alt="" class="image" />
+      <div class="image-data">
+        <span class="text">Discover by interest</span>
+        <h2>
+          “Heritage Destinations”
+        </h2>
+        <a href="heritage.html" class="button">Explore Now</a>
+      </div>
+    </div>
+    
+  </div>
+
+  <div class="swiper-button-next nav-btn"></div>
+  <div class="swiper-button-prev nav-btn"></div>
+  <div class="swiper-pagination"></div>
+</section>
+
+<!-- Swiper JS -->
+<script src="js/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
+
+ <div id="Text1">
+  <h1 data-text="Must visit Temples in India&#x25BC">Must visit Temples in India&#x25BC;<h1>
+
+ </div>
+
+ <!--Second image slider-->
+ <section class="slider_container">
+  <div class="container">
+    <div class="swiper card_slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="img_box">
+            <img src="images/tirupati.jpg">
+            <div class="image-data2">
+              <span class="text2">Tirupathi</span>
+              <h2>
+                OM NAMO VENKATESHAYA
+              </h2>
+              <a href="tirupathi.html" class="button2">Explore</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="img_box">
+            <img src="images/vaishnodevi.jpg">
+            <div class="image-data2">
+              <span class="text2">Vaishnodevi</span>
+              <h2>
+                JAI MATA di
+              </h2>
+              <a href="vaishnodevi.html" class="button2">Explore</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="img_box">
+            <img src="images/chardham.jpg">
+            <div class="image-data2">
+              <span class="text2">Chardham</span>
+              <h2>
+                OM NAMAH SHIVAYA
+              </h2>
+              <a href="chardham.html" class="button2">Explore</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="img_box">
+            <img src="images/kedarnath.jpg">
+            <div class="image-data2">
+              <span class="text2">Kedarnath</span>
+              <h2>
+                OM NAMAH SHIVAYA
+              </h2>
+              <a href="kedarnath.html" class="button2">Explore</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="img_box">
+            <img src="images/Meenakshi.jpg">
+            <div class="image-data2">
+              <span class="text2">Meenakshi</span>
+              <h2>
+                JAI MATA di
+              </h2>
+              <a href="Meenakshi.html" class="button2">Explore</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="img_box">
+            <img src="images/srisailam.jpg">
+            <div class="image-data2">
+              <span class="text2">Srisailam</span>
+              <h2>
+                OM NAMAH SHIAVAYA
+              </h2>
+              <a href="srisailam.html" class="button2">Explore</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="img_box">
+            <img src="images/kashi.jpg">
+            <div class="image-data2">
+              <span class="text2">Kashi</span>
+              <h2>
+                OM NAMAH SHIVAYA
+              </h2>
+              <a href="kashi.html" class="button2">Explore</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="img_box">
+            <img src="images/puri.jpg">
+            <div class="image-data2">
+              <span class="text2">Puri</span>
+              <h2>
+                JAI SHREE KRISHNA
+              </h2>
+              <a href="puri.html" class="button2">Explore</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="img_box">
+            <img src="images/rameshwaram.jpg">
+            <div class="image-data2">
+              <span class="text2">Rameshwaram</span>
+              <h2>
+                OK NAMAH SHIVAYA
+              </h2>
+              <a href="rameshwaram.html" class="button2">Explore</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="img_box">
+            <img src="images/white.jpg">
+            <div class="image-data2">
+              <span class="text2">Temples</span>
+              <h2>
+                "Explore More Temples IN India"
+              </h2>
+              <a href="moretemples.html" class="button2">Explore</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-next nav-btn2"></div>
+  <div class="swiper-button-prev nav-btn2"></div>
+    </div>
+</div>
+</section>
+
+
+<!-- Swiper JS -->
+<script src="js\cdn.jsdelivr.net_npm_swiper@9_swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+var swiper = new Swiper(".card_slider", {
+  autoplay:{
+    delay:1000,
+  }, 
+  loop:true, 
+  speed:1000,   
+  spaceBetween: 30,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  breakpoints:{
+    320:{
+      slidesPerView:1,
+    },
+    480:{
+      slidesPerView:2,
+    },
+    768:{
+      slidesPerView:3,
+    },
+    1200:{
+      slidesPerView:4,
+    },
+  },
+});
+</script>
+
+<!--review card -->
+
+<div class="testimonials">
+  <div class="inner">
+    <h1>Our Customer Reviews</h1>
+    <div class="border"></div>
+
+    <div class="row">
+      <div class="col">
+        <div class="testimonial">
+          <img src="images/review1.png" alt="">
+          <div class="name">Mr.Sahith Kumar</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+
+          <p>
+            It was a great experience and we really enjoyed the trip and the big thanks to take a trip team.hotel,staff and driver & all are very co-operative in nature.Looking forward to expect the same experience for coming trips.
+          </p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="testimonial">
+          <img src="images/review2.png" alt="">
+          <div class="name">Mr.Sai Krishna</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+
+          <p>
+            "Our trip was really cherishing. In the Beginnings I've tensed,as we are the group of 20 people,but i appreciate the way take a trip organised all of us very well.Here it shows how they take care of all our travel requirements.Thanks to team for giving us the best trip."
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <div class="testimonial">
+            <img src="images/review3.jpg" alt="">
+            <div class="name">Hari Chandra Prasad</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+  
+            <p>
+              I really appreciate the way team takes care of the trip schedule.I wont Say that there are no issues in the trip but they've provided very quick resolutions which avoided heckups in my trip 
+              Driver is very frendly person.Thank you for making our trip memorable.
+            </p>
+          </div>
+        </div>
+
+      <div class="col">
+        <div class="testimonial">
+          <img src="images/review4.png" alt="">
+          <div class="name">MR.Sathish</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+
+          <p>
+            Travelling with takeatrip was very pleasent.we are of newly married couple and they've take care of everything without saying anything.Thanks for team takeatrip for
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+   <!--Footer-->
+   <footer class="footer">
+    <div class="container2">
+      <div class="row2">
+        <div class="footer-col">
+          <h4>company</h4>
+          <ul>
+            <li><a href="aboutus.html">about us</a></li>
+            <li><a href="ourservices.html">our services</a></li>
+            <li><a href="privacy.html">privacy policy</a></li>
+            <li><a href="tcs.html">Terms of services</a></li>            
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>get help</h4>
+          <ul>
+            <li><a href="FAQ.html">FAQ</a></li>
+            <li><a href="payment.html">payment options</a></li>
+            <li><a href="howtobook.html">How To book</a></li>
+            <li><a href="travelguidelines.html">Travel guidelines</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Follow Us</h4>
+          <div class="social-links">
+            <a href="https://www.facebook.com/profile.php?id=100091541602643"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/takeatrip.company/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/takeatrip-in/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://twitter.com/Takeatrip_3"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+   </footer>
+
+  
+</body>
+</html>
+ 
